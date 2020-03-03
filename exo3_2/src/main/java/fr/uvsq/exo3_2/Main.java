@@ -13,11 +13,6 @@ public class Main {
 		entreprise.add(e1);
 		entreprise.add(v1);
 		entreprise.add(m1);
-		
-		System.out.println(e1.calculeSalaire());
-		System.out.println(v1.calculeSalaire());
-		System.out.println(m1.calculeSalaire());
-		System.out.println(entreprise.calculeMasseSalariale());
 
 	}
 
