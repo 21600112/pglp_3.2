@@ -9,10 +9,9 @@ public class Employe {
 		this.anciennete = pAnciennete;
 	}
 	
-	public int calculeSalaireTotal()
+	public int calculeSalaire()
 	{
 		int salaire = salaireDeBase + 20*anciennete;
 		return salaire;
 	}
-	
 }
