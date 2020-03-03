@@ -11,7 +11,7 @@ public class Vendeur extends Employe {
 	
 	public int calculeSalaire()
 	{
-		int salaire = salaireDeBase + commission;
+		int salaire = salaireDeBase + commission + 20*anciennete;
 		return salaire;
 	}
 	

@@ -12,7 +12,7 @@ public class Manager extends Employe {
 	
 	public int calculeSalaire()
 	{
-		int salaire = salaireDeBase + 100*nombreEmploye;
+		int salaire = salaireDeBase + 100*nombreEmploye + 20*anciennete;
 		return salaire;
 	}
 	
